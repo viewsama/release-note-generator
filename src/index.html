@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Release Note Generator 1.0</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script type="module" src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Release Note Generator</h1>
+    <form>
+      <div>
+        <label for="textbox9"><b>Name of Sprint</b></label>
+        <textarea id="textbox9" rows="1"></textarea>
+      </div>
+
+
+      <div>
+        <label for="textbox10"><b>Type of Release</b></label>
+        <select id="textbox10">
+          <option value="New maintained version release">New maintained version release</option>
+          <option value="New active version release">New active version release</option>
+        </select>
+      </div>
+      
+      <div>
+        <label for="textbox1"><b>New Releases</b></label>
+        <select id="textbox1">
+          <option value="SDKs and UIKit">SDKs and UIKit</option>
+          <option value="SDKs">SDKs</option>
+          <option value="UIKit">UIKit</option>
+        </select>
+      </div>
+
+      
+
+      
+
+<div class="grid-container">
+      <fieldset id="platformSection">
+        <legend><b>iOS SDK</b></legend>
+        <label for="textbox2"><b>Changes</b></label>
+        <textarea id="textbox2" rows="5"></textarea>
+        <div>
+          <label for="iosSdk">Version Released</label>
+          <input type="text" id="iosSdk">
+        </div>
+      </fieldset>
+
+      <!-- Add more sections here -->
+
+      <fieldset>
+        <legend><b>Android SDK</b></legend>
+        <label for="textbox3"><b>Changes</b></label>
+        <textarea id="textbox3" rows="5"></textarea>
+        <div>
+          <label for="androidSdk">Version Released</label>
+          <input type="text" id="androidSdk">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend><b>TypeScript SDK</b></legend>
+        <label for="textbox4"><b>Changes</b></label>
+        <textarea id="textbox4" rows="5"></textarea>
+        <div>
+          <label for="typescriptSdk">Version Released</label>
+          <input type="text" id="typescriptSdk">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend><b>JavaScript SDK</b></legend>
+        <label for="textbox5"><b>Changes</b></label>
+        <textarea id="textbox5" rows="5"></textarea>
+        <div>
+          <label for="javascriptSdk">Version Released</label>
+          <input type="text" id="javascriptSdk">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend><b>Flutter SDK</b></legend>
+        <label for="textbox6"><b>Changes</b></label>
+        <textarea id="textbox6" rows="5"></textarea>
+        <div>
+          <label for="flutterSdk">Version Released</label>
+          <input type="text" id="flutterSdk">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend><b>iOS UIKit</b></legend>
+        <label for="textbox7"><b>Changes</b></label>
+        <textarea id="textbox7" rows="5"></textarea>
+        <div>
+          <label for="iosUIKit">Version Released</label>
+          <input type="text" id="iosUIKit">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend><b>Android UIKit</b></legend>
+        <label for="textbox8"><b>Changes</b></label>
+        <textarea id="textbox8" rows="5"></textarea>
+        <div>
+          <label for="androidUIKit">Version Released</label>
+          <input type="text" id="androidUIKit">
+        </fieldset>
+
+        <fieldset>
+          <legend><b>Javascript UIKit</b></legend>
+          <label for="textbox11"><b>Changes</b></label>
+          <textarea id="textbox11" rows="5"></textarea>
+          <div>
+            <label for="javascrtpyUIKit">Version Released</label>
+            <input type="text" id="javascriptUIKit">
+          </fieldset>
+
+
+</div>
+        <button id="generateBtn">Generate</button>
+      </form>
+      <div id="output" class="output-box"></div>
+      
+    </div>
+
+    
+    
+    <script type="module" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+  </html>
+
