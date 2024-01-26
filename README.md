@@ -16,5 +16,3 @@ OPENAI_API_KEY="OPENAI_API_KEY" ./build.sh
 
 **Deploy to Production**
 * Perform PR and merge to `main` will deployed to Production environment on Cloudflare Pages.
-:)
-T-T
